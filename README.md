@@ -137,9 +137,7 @@ The first run caches MATLAB files for faster subsequent execution.
 
 This project was conducted collaboratively as part of our group's SMR motor-imagery study. 
 
-Joseph, Dheemant, Defne, JD, and Alexis contributed extensively to data collection, model design, and the analytical direction of the project, and their work directly shaped the methods reproduced in this repository.
-
----
+**Joseph, Dheemant, Defne, JD, and Alexis all worked with me to collect the data for the experiment. Alexis and I were direct participants. As a team, we worked together to brainstorm preprocessing and feature extraction steps as well as prepare a presentation together.**
 
 ## Citation
 
