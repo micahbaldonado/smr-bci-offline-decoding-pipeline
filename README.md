@@ -74,7 +74,6 @@ Highlights from the benchmarking:
 These findings reflect the broader trend observed in the report: disciplined preprocessing and well-structured representations often determine model success more than architectural complexity.
 
 Below are the evaluation results:
-Belo
 <img width="2024" height="1091" alt="image" src="https://github.com/user-attachments/assets/a8fa5529-4bb9-494f-b821-5e4fb46b29bb" />
 
 ---
