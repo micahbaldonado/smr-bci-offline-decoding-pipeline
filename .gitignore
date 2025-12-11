@@ -1,0 +1,309 @@
+# ==============================================================================
+# Data Files - DO NOT TRACK
+# ==============================================================================
+
+# MATLAB data files (all .mat files)
+*.mat
+**/*.mat
+
+# Data directories
+ORIGINAL_DATA_Group1_BCI_SMR/
+assignmentData.mat
+
+# Large cache files (heavy PKL files)
+*.pkl
+**/*.pkl
+misc/bci_session_data_cache.pkl
+
+# Model checkpoints and weights
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.onnx
+*.pkl
+misc/best_nn_model.pth
+
+# ==============================================================================
+# Python
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ==============================================================================
+# IDEs and Editors
+# ==============================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ==============================================================================
+# OS Files
+# ==============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==============================================================================
+# Project-Specific
+# ==============================================================================
+
+# Temporary and draft files
+misc/drafty.png
+misc/fig_test.png
+misc/model_performance.png
+misc/nn_training_curves.png
+misc/preprocessing copy.py
+misc/working_kinda/
+misc/XXXXXXpreprocessing.ipynb
+misc/failsafe.ipynb
+misc/lockin.ipynb
+misc/lockin copy.ipynb
+
+# MATLAB files (if any)
+*.m
+misc/linearClassifierAssignment.m
+misc/linearClassifierFx.m
+
+# Assignment/test files
+CSP_LDA_Assignment.py
+
+# ==============================================================================
+# Large Output Files (Optional - uncomment if you don't want to track outputs)
+# ==============================================================================
+
+# Uncomment these if you don't want to track generated figures
+# CSP_outputs/
+# eegnet_training_plots/
+# report_figures/
+
+# PDF reports (uncomment if you don't want to track)
+# *.pdf
+
+# ==============================================================================
+# Logs and Temporary Files
+# ==============================================================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# ==============================================================================
+# Data Science / ML Specific
+# ==============================================================================
+
+# Weights & Biases
+wandb/
+
+# TensorBoard
+runs/
+logs/
+*.tfevents.*
+
+# MLflow
+mlruns/
+
+# DVC
+.dvc/
+*.dvc
+
+# ==============================================================================
+# OneDrive (Windows)
+# ==============================================================================
+
+# OneDrive sync files (if applicable)
+~$*
+
